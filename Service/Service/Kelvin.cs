@@ -8,5 +8,14 @@ namespace Service.Service
 {
     public class Kelvin
     {
+        public double Degree { get; set; }
+
+
+        public Kelvin(int kelvin)
+        {
+            Degree = kelvin;
+        }
+
+
     }
 }
