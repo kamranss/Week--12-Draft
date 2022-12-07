@@ -5,6 +5,7 @@ using Service.Service;
 Celcius celcius = new Celcius(10);
 
 Kelvin kelvin = celcius;
+Console.WriteLine(celcius.CDegree);
 
 Console.WriteLine(kelvin.KDegree);
 
