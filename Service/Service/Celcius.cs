@@ -8,17 +8,18 @@ namespace Service.Service
 {
     public class Celcius
     {
-        public int Degree { get; set; }
+        public double CDegree { get; set; }
 
-        public Celcius(int degree)
+        public Celcius(double degree)
         {
-            Degree = degree;
+            CDegree = degree;
         }
 
-        public static implicit operator Kelvin(Celcius degree)
+        public static implicit operator Kelvin(Celcius tempraturee)
         {
-            return new Kelvin(degree.Degree/1.7);
+            return new Kelvin(tempraturee.CDegree + 273.15);
         }
-        
+
+            
     }
 }
