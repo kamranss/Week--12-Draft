@@ -48,9 +48,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kamra\\source\\repos\\Temprature\\Temprature\\Temprature.csproj",
-      "projectName": "Temprature",
-      "projectPath": "C:\\Users\\kamra\\source\\repos\\Temprature\\Temprature\\Temprature.csproj",
+      "projectUniqueName": "C:\\Users\\kamra\\source\\repos\\Temprature\\Temprature\\Temprature.Employee.csproj",
+      "projectName": "Temprature.Employee",
+      "projectPath": "C:\\Users\\kamra\\source\\repos\\Temprature\\Temprature\\Temprature.Employee.csproj",
       "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\kamra\\source\\repos\\Temprature\\Temprature\\obj\\",
       "projectStyle": "PackageReference",
